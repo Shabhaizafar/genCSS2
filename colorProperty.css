@@ -1,0 +1,24 @@
+/* 1) Color Name  */
+p{
+    color: yellow;
+}
+/* 2) Hexa Decimal Number */
+h5{
+    color: #00ff00;
+}
+/* 3) RGB Color (Red(0-255),Green(0-255),Blue(0-255)) */
+h4{
+    color: rgb(185, 157, 198);
+}
+/* 4) RGBA Color (Red(0-255),Green(0-255),Blue(0-255),alpha(0-1))*/
+h3{
+    color: rgba(255,0,0,0);
+}
+/* 5) HSL Color (Hue(0-360) deg,saturation(0-100%)(100% default),lightness(0-100%)(50% default)) */
+h2{
+    color: hsl(0,100%,50%);
+}
+/* 6) HSLA Color  (Hue(0-360) deg,saturation(0-100%)(100% default),lightness(0-100%)(50% default),alpha(0-1))*/
+h1{
+    color: hsla(0,100%,50%,.5);
+}

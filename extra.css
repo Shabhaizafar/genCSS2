@@ -1,0 +1,14 @@
+body{
+    color: cadetblue;
+    text-decoration:line-through;
+}
+div{
+    /* color: inherit; */
+    border: 10px solid;
+    text-decoration: none;
+}
+
+a{
+    color: inherit;
+    text-decoration: inherit;
+}

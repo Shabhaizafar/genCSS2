@@ -1,0 +1,13 @@
+ul{
+    /* list-style-type: none; */
+    /* list-style-type: upper-latin; */
+    background-color: blue;
+}
+li{
+    list-style-type: lower-alpha;
+    background-color: brown;
+    /* default */
+    /* list-style-position: outside; */
+    /* list-style-position: inside; */
+    /* list-style: ; */
+}

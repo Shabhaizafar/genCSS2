@@ -1,0 +1,39 @@
+h1{
+    font-size: 56px;
+    /* 1 */
+    /* font-family: serif,'algerian'; */
+    /* font-family: algerian; */
+    /* '  '   " space" */
+
+    /* 2  google Font*/
+    /* font-family: 'Kalam','Bruno Ace SC'; */
+    /* font-family: Blackadder ITC,kalam; */
+    /* font-style: oblique; */
+    /* font-weight:; */
+    /* ------------------1 */
+    /* font-variant: normal; */
+    /* font-variant: small-caps; */
+    /* ----------------------2 */
+    /* font-display: touppercase; */
+
+    
+
+}
+ul{
+    /* font-family: 'Climate Crisis', cursive; */
+    /* font-style: normal; */
+    /* font-style: italic;  */
+    /* font-style: oblique; */
+    /* font-variant: normal; */
+}
+p{
+    /* line-height: normal; */
+    /* line-height: 40px; */
+    /* text-align: left; */
+    /* text-align: right; */
+    /* text-align: center; */
+    /* text-align: justify;
+    letter-spacing: 5px;
+    word-spacing: 10px; */
+    /* font: bold italic large serif; */
+}

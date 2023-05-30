@@ -1,0 +1,38 @@
+h1{
+    font-size: 400px;
+/* ------------------------------------ */
+    /* font-weight: lighter;   100-400*/
+    /* font-weight: normal;  400-500 */
+    /* font-weight: 00; */
+    /* font-weight: bold;  500-700*/
+    /* font-weight: bolder; 700-900 */
+/* ------------------------------------- */
+    /* font-style: italic;  (Some Browser Doesn't workable)*/ 
+    /* font-style: oblique; (Must  Use) */
+    /*  */
+    /* -------------------------------- */
+    /* 1  */
+    /* font-family: Product Sans; */
+
+    /* 2 google font Family */
+    font-family: 'Kumar One Outline', cursive;
+}
+ul{
+    font-size: 24px;
+    color : red;
+    /* font-weight: bold; */
+    
+}
+/* 8  */
+
+/* .list{
+    color: green;
+} */
+#id1{
+    color: blue;
+}
+
+
+/* priority :  */
+
+/* id selector > class Selector > Type Selector(Tag /Element Selector)  */

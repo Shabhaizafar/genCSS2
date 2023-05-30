@@ -1,0 +1,101 @@
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+.box1{
+    /* width: 400px; */
+    background-image: radial-gradient(closest-side at 50px 50px,red,yellow);
+}
+.box2{
+    /* width: 400px; */
+    background-image: radial-gradient(farthest-side at 50px 50px,red,yellow);
+}
+.box3{
+    /* width: 400px; */
+    background-image: radial-gradient(closest-corner at 50px 50px,red,yellow);
+}
+.box4{
+    /* width: 400px; */
+    background-image: radial-gradient(farthest-corner at 50px 50px,red,yellow);
+}
+.box5{
+    background-image: repeating-radial-gradient(red 0px,red 20px,yellow 20px,yellow 40px);
+}
+.box6{
+    background-image: repeating-radial-gradient(circle at left,red 0px,red 20px,yellow 20px,yellow 40px);
+}
+.box7{
+    background-image: repeating-radial-gradient( at left,red 0px,red 20px,yellow 20px,yellow 40px);
+}
+.box8{
+    background-image: repeating-radial-gradient(circle at left top,red 0px,red 20px,yellow 20px,yellow 40px);
+}
+.box9{
+    background-image: conic-gradient(red,yellow);
+}
+
+.box10{
+    background-image: conic-gradient(from 45deg,red,yellow);
+}
+
+.box11{
+    background-image: conic-gradient(red,yellow,red);
+}
+.box12{
+    background-image: conic-gradient(from 45deg,red,yellow,red);
+}
+.box13{
+    background-image: conic-gradient(red 0deg,red 135deg,yellow 135deg,yellow 225deg,blue 225deg,blue);   
+}
+.box14{
+    background-image: conic-gradient(white 0deg,white 90deg,blue 90deg,blue 180deg,white 180deg,white 270deg,blue 270deg,blue 360deg);
+}
+.box15{
+    background-image: repeating-conic-gradient(white 0deg,white 90deg,blue 90deg,blue 180deg);
+}
+.box16 {
+    width: 270px;
+    height: 300px;
+    /* background-image: repeating-conic-gradient(
+      green 0deg,
+      green 90deg,
+      yellow 90deg,
+      yellow 180deg
+    ); */
+    /* background-image: repeating-conic-gradient(
+        green 0% 25%,
+        yellow 25% 50%
+      ); */
+      /* background-image: repeating-conic-gradient(
+        green 0deg 90deg,
+        yellow 25% 50%
+      );
+    background-size: 100px 100px; */
+}
+body{
+    width: 100%;
+    height: 550px;
+    /* border: 1px solid black; */
+    background-image: url("https://images.unsplash.com/photo-1552083375-1447ce886485?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJlJTIwd2FsbHBhcGVyfGVufDB8fDB8fHww&w=1000&q=80");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* margin: auto; */
+    overflow:  auto;
+    /* overflow: hidden; */
+    /* overflow-x: scroll; */
+    /* overflow-y: scroll; */
+    /* background-attachment: fixed; */
+    /* background-attachment: local; */
+    /* background-attachment: scroll; */
+    background-attachment: fixed;
+}
+
+/* 
+background-attechment : 
+
+1) div  : fixed(default),local(scrolling type),scroll(doesn't Workable)
+
+
+2) body : scroll(default),             fixed          ,local(doesn't Workable)
+*/

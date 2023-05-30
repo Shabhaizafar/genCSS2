@@ -1,0 +1,104 @@
+.box{
+    border: 1px solid;
+    width: 100px;
+    height: 100px;
+}
+.box1{
+    background-image: linear-gradient(lawngreen,rgb(255, 50, 84));
+}
+.box2{
+    background-image: linear-gradient(to bottom,lawngreen,rgb(255, 50, 84));
+}
+.box3{
+    background-image: linear-gradient(to top,lawngreen,rgb(255, 50, 84));
+}
+.box4{
+    background-image: linear-gradient(to left,lawngreen,rgb(255, 50, 84));
+}
+.box5{
+    background-image: linear-gradient(to right,lawngreen,rgb(255, 50, 84));
+}
+.box6{
+    background-image: linear-gradient(to left bottom,lawngreen,rgb(255, 50, 84));
+}
+
+.box7{
+    background-image: linear-gradient(to left top,lawngreen,rgb(255, 50, 84));
+}
+
+.box8{
+    background-image: linear-gradient(to right bottom,lawngreen,rgb(255, 50, 84));
+}
+
+.box9{
+    background-image: linear-gradient(to right top,lawngreen,rgb(255, 50, 84));
+}
+
+.box10{
+    background-image: linear-gradient(lawngreen 0px,lawngreen 50px,rgb(255, 50, 84) 50px,rgb(255, 50, 84) 100px);
+}
+.box11{
+    background-image: linear-gradient(to left bottom,lawngreen 0%,lawngreen 50%,rgb(255, 50, 84) 50px,rgb(255, 50, 84) 100px);
+}
+.box12{
+    background-image: repeating-linear-gradient(lawngreen 0px,lawngreen 10px,rgb(255, 50, 84) 10px,rgb(255, 50, 84) 20px);
+}
+.box13{
+    /* width: 500px;
+    height: 500px; */
+    background-image: repeating-linear-gradient(rgba(126, 252, 0, 0.518) 0px,rgba(126, 252, 0, 0.518) 10px,transparent 10px,transparent 20px), repeating-linear-gradient(to left,transparent 0px,transparent 10px,rgb(8, 0, 252) 10px,rgb(46, 0, 252) 20px),url("https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+    background-size: 50% 50%;
+    background-repeat: repeat;
+
+    /* background-color: brown; */
+}
+.box14{
+    background-image: radial-gradient(red,yellow);
+}
+.box15{
+    background-image: radial-gradient(at 50% 50%,red,yellow);
+}
+.box16{
+    background-image: radial-gradient(at left,red,yellow);
+}
+.box17{
+    background-image: radial-gradient(circle at left,red,yellow);
+}
+.box18{
+    background-image: radial-gradient(red 0px,red 20px,yellow 20px,yellow 50px);
+}
+.box18{
+    background-image: radial-gradient(circle at 50px 70px,red 0px,red 20px,yellow 20px,yellow 50px);
+}
+.box19{
+    background-image: repeating-radial-gradient(red 0px,red 20px,yellow 20px,yellow 40px);
+}
+.box20{
+    width: 200px;
+    height:200px;
+    background-image: radial-gradient(at 50px 50px,red,yellow);
+}
+
+.box21{
+    width: 200px;
+    height:200px;
+    background-image: radial-gradient( closest-side at 50px 50px,red,yellow);
+}
+
+.box22{
+    width: 200px;
+    height:200px;
+    background-image: radial-gradient(farthest-side  at 50px 50px,red,yellow);
+}
+
+.box23{
+    width: 200px;
+    height:200px;
+    background-image: radial-gradient(closest-corner  at 50px 50px,red,yellow);
+}
+
+.box24{
+    width: 200px;
+    height:200px;
+    background-image: radial-gradient(farthest-corner  at 50px 50px,red,yellow);
+}

@@ -1,0 +1,64 @@
+/* type selector */
+/* div{
+    width: 400px;
+    height: 300px;
+    border: 1px solid red;
+    float: left;
+} */
+
+/* div block element 
+
+*/
+
+/* div.container{
+    width: 100%;
+    border: 1px solid red;
+    overflow: auto;
+}
+#id1,#id2,#id3,#id4{
+    width: 300px;
+    height: 200px;
+    border: 1px solid blue;
+    float: left;
+    float: left;
+    float: right;
+} */
+div.main{
+    width: 100%;
+    border: 1px solid red;
+    overflow: auto;
+}
+/* div{
+    width: 300px;
+    height: 200px;
+    border: 1px solid blue;
+    float: right;
+    float: left;
+} */
+#id1,#id2,#id3,#id4{
+    width: 300px;
+    height: 200px;
+    border: 1px solid blue;
+    /* float: right; */
+    float: left;
+}
+#id2{
+    /* clear: left; */
+    /* clear: right; */
+    /* clear: both; */
+    /* float: left; */
+}
+#id1{
+    /* clear: left; */
+    /* clear: left; */
+    /* clear: both; */
+}
+#id3{
+    /* clear: left; */
+    /* clear: right; */
+    clear: both;
+}
+#id4{
+    /* clear: left; */
+    clear: right;
+}

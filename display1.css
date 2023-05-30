@@ -1,0 +1,77 @@
+
+#id1{
+    /* display: block;
+    border: 1px solid red;
+    background-color: cadetblue; */
+    /* height: 100px; */
+    border: 1px solid red;
+    background-color: cadetblue;
+}
+#id2{
+    /* display: block;
+    width: 50%;
+    height: 200px;
+    border: 1px solid red;
+    background-color: cadetblue; */
+    /* margin: 50px; */
+    /* margin: auto; */
+    /* padding: 10px; */
+    /* display: inline;
+    border: 1px solid red;
+    background-color: cadetblue;
+    width: 300px;
+    height: 300px; */
+    /* margin: 100px; */
+    /* margin: auto; */
+    /* padding: 10px; */
+    border: 1px solid red;
+    background-color: cadetblue;
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    /* margin: 30px; */
+    /* margin: auto; */
+    padding: 40px;
+}
+p{
+    /* border: 1px solid; */
+}
+/* 
+display:
+
+1) block :
+    -  default width 100%
+    -  width changable
+    -  default height content-size
+    -  height changable
+    -  margin workable (all side)
+    -  margin: auto  (workable)
+    -  padding workable
+    -  text position (not fixed)
+    -  always start with new line
+    -  always end with new line
+    -  default margin required
+
+2) inline : 
+    -  default width content-size
+    -  always start with white-space
+    -  default margin no required
+    -  width doesn't changable
+    -  default height content-size
+    -  height doesn't changable
+    -  margin workable only left and right side  (doesn't workable top/bottom)
+    -  margin: auto  (doesn't workable)
+    -  padding workable
+    -  text position fixed
+
+3) inline-block : 
+    -  default width content-size
+    -  always start with white-space
+    -  width changable
+    -  default height content-size
+    -  height changable
+    -  margin workable (all side)
+    -  margin: auto  (doesn't workable)
+    -  padding workable
+    -  text position (not fixed)
+*/

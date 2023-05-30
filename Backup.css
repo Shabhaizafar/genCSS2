@@ -1,0 +1,39 @@
+/* type Selector 
+h1{
+    color: red;
+}
+class Selector
+.class1{
+    color: green;
+}
+id Selector
+#id1{
+    color: blue;
+} */
+/*1)  color Name */
+p{
+    color: aqua;
+}
+/* 2) Hexa Decimal Number */
+h5{
+    color:#0000ff;
+}
+/* 3) rgb color (red(0-255),green(0-255),blue(0-255))   */
+h4{
+    color: rgb(100,0,0);
+}
+/* rgba color (red(0-255),green(0-255),blue(0-255),alpha(0-1)) */
+h3{
+    color: rgba(255,0,0,0.5);
+}
+/* 4) HSL Color (hue,Saturation,Lightness) 
+                (deg,% default(100%),%(50%))
+                (0-360,0-100%,0-100%)
+    */
+h2{
+    color: hsl(0,100%,100%);
+}
+/* 5) hsla with alpha */
+h1{
+    color: hsla(0,100%,50%,0.4);
+}

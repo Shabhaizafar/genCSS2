@@ -1,0 +1,44 @@
+/* body{
+    background-color: red;
+    background-color: #ff0000;
+    background-color: rgb(255,0,0);
+    background-color: rgba(255,0,0,1);
+    background-color: hsl(360,100%,50%);
+    background-color: hsla(0,100%,50%,1);
+    background-color: cadetblue;
+}
+ol{
+    background-color: black;
+    color: aliceblue;
+}
+li{
+    background-color: gray;
+    list-style-position: inside;
+} */
+div{
+    width: 1000px;
+    height: 630px;
+    /* background-image: url(https://images.unsplash.com/photo-1491466424936-e304919aada7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80); */
+    /* background-image: url("https://images.unsplash.com/photo-1491466424936-e304919aada7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80"); */
+    border: 1px solid red;
+    /* background-size: auto; */
+                    /*width*/
+    /* background-size: 300px; */
+                    /*width  height */
+    /* background-size: 270px 240px; */
+    /* background-size: contain; */
+    /* background-size: cover; */
+
+                    /*width   height */
+    background-size: 100% 100%;
+    /* background-repeat: repeat; */
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-repeat: space; */
+    /* background-repeat: round; */
+    /* background-repeat: no-repeat repeat; */
+    /* background-repeat: space round; */
+    /* background-repeat: round space; */
+
+}           
